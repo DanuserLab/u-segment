@@ -10,9 +10,17 @@ u-segment is a Matlab software package to do 2D cell segmentation. This package 
 It consists of 4 steps, including optional steps, to create cell masks:
 
 1. Generate Summation Channel.
-2. MSA (Multi-Scale Automatic) Segmentation.
+   
+3. Segmentation.
+   
+    Current available Segmentation methods:
+    - Thresholding
+    - MSA (Multi-Scale Automatic) Segmentation
+    - External Segmentation
+    
 3. Trembling Correction.
-4. Mask Refinement.
+   
+5. Mask Refinement.
 
 ----------------------
 ### Danuser Lab Links
